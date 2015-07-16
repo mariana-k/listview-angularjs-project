@@ -1,0 +1,66 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mychart {
+    background: #eee;
+    padding: 3px;
+}
+
+.mychart div {
+  width: 0;
+  transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.mychart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 5px;
+  color: white;
+  box-shadow: 2px 2px 2px #666;
+}
+/* Toolbar area */
+
+.menu {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  margin: 16px;
+  width: 36px;
+}
+
+/* Primary content area */
+
+#content {
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+.content-wrapper {
+  position: relative;
+}
+
+md-toolbar h1 {
+  margin: auto;
+  font-size: 1.250em;
+  font-weight: 400;
+}
+
+input {
+  font-size: 12px;
+}
+
+.mychart {
+  width: 575px;
+  margin: auto;
+}
