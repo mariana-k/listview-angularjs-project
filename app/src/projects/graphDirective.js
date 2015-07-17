@@ -8,8 +8,8 @@
 
 
   /**
-   * Toggle Controller for projects accordion
-   * @param $scope
+   * Graph directive
+   * @param $parse
    */
   function graphDirective($parse) {
     return {
